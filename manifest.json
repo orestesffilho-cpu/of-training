@@ -1,23 +1,23 @@
 {
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "theme_color": "#080808",
+  "background_color": "#080808",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "OF Training Oficial",
-  "short_name": "OF Training",
-  "description": "Plataforma de Gestão de Treinos e Evolução Corporal",
+  "name": "OF Training",
+  "short_name": "Training",
+  "description": "Consultoria Esportiva Orestes Fernandes",
   "icons": [
     {
-      "src": "/vite.svg",
+      "src": "logo-of.jpeg",
       "sizes": "192x192",
-      "type": "image/svg+xml",
+      "type": "image/jpeg",
       "purpose": "any"
     },
     {
-      "src": "/vite.svg",
+      "src": "logo-of.jpeg",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/jpeg",
       "purpose": "any"
     }
   ]
