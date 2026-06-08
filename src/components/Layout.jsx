@@ -1,5 +1,6 @@
 import { Outlet, Link, useLocation } from "react-router-dom";
 import { Dumbbell, LayoutDashboard, ClipboardList, TrendingUp, Activity } from "lucide-react";
+import logo from '/logo-of.png';
 
 const navItems = [
   { path: "/", icon: LayoutDashboard, label: "Início" },
@@ -19,7 +20,10 @@ export default function Layout() {
           <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
             <Dumbbell className="h-4 w-4 text-primary-foreground" />
           </div>
-          <h1 className="font-heading font-bold text-lg tracking-tight">IronTrack</h1>
+          <div className="flex items-center gap-2">
+            <img src={logo} alt="OF Training Logo" className="h-8 w-8 object-contain" />
+            <span className="font-heading font-bold text-lg tracking-tight">OF Training</span>
+          </div>
         </div>
       </header>
 
