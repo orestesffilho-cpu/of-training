@@ -9,15 +9,15 @@
   "description": "Consultoria Esportiva Orestes Fernandes",
   "icons": [
     {
-      "src": "logo-of.jpeg",
+      "src": "logo-of.png",
       "sizes": "192x192",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "logo-of.jpeg",
+      "src": "logo-of.png",
       "sizes": "512x512",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any"
     }
   ]
