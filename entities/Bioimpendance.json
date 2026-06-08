@@ -1,0 +1,51 @@
+{
+  "name": "Bioimpedance",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Data"
+    },
+    "weight": {
+      "type": "number",
+      "title": "Peso (kg)"
+    },
+    "body_fat_percent": {
+      "type": "number",
+      "title": "Gordura Corporal (%)"
+    },
+    "muscle_mass": {
+      "type": "number",
+      "title": "Massa Muscular (kg)"
+    },
+    "visceral_fat": {
+      "type": "number",
+      "title": "Gordura Visceral"
+    },
+    "bone_mass": {
+      "type": "number",
+      "title": "Massa \u00d3ssea (kg)"
+    },
+    "body_water": {
+      "type": "number",
+      "title": "\u00c1gua Corporal (%)"
+    },
+    "basal_metabolism": {
+      "type": "number",
+      "title": "Metabolismo Basal (kcal)"
+    },
+    "bmi": {
+      "type": "number",
+      "title": "IMC"
+    },
+    "notes": {
+      "type": "string",
+      "title": "Observa\u00e7\u00f5es"
+    }
+  },
+  "required": [
+    "date",
+    "weight"
+  ]
+}

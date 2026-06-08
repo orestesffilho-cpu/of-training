@@ -1,0 +1,36 @@
+{
+  "name": "Exercise",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Nome do Exerc\u00edcio"
+    },
+    "muscle_group": {
+      "type": "string",
+      "title": "Grupo Muscular",
+      "enum": [
+        "Peito",
+        "Costas",
+        "Ombros",
+        "B\u00edceps",
+        "Tr\u00edceps",
+        "Pernas",
+        "Gl\u00fateos",
+        "Abd\u00f4men",
+        "Panturrilha",
+        "Antebra\u00e7o",
+        "Cardio",
+        "Outro"
+      ]
+    },
+    "notes": {
+      "type": "string",
+      "title": "Observa\u00e7\u00f5es"
+    }
+  },
+  "required": [
+    "name",
+    "muscle_group"
+  ]
+}

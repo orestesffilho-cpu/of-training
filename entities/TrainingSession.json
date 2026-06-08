@@ -1,0 +1,67 @@
+{
+  "name": "TrainingSession",
+  "type": "object",
+  "properties": {
+    "workout_id": {
+      "type": "string",
+      "title": "ID do Treino"
+    },
+    "workout_name": {
+      "type": "string",
+      "title": "Nome do Treino"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Data"
+    },
+    "duration_minutes": {
+      "type": "number",
+      "title": "Dura\u00e7\u00e3o (min)"
+    },
+    "exercise_logs": {
+      "type": "array",
+      "title": "Registro dos Exerc\u00edcios",
+      "items": {
+        "type": "object",
+        "properties": {
+          "exercise_id": {
+            "type": "string"
+          },
+          "exercise_name": {
+            "type": "string"
+          },
+          "sets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "set_number": {
+                  "type": "number"
+                },
+                "weight": {
+                  "type": "number"
+                },
+                "reps": {
+                  "type": "number"
+                },
+                "completed": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "title": "Observa\u00e7\u00f5es"
+    }
+  },
+  "required": [
+    "workout_id",
+    "workout_name",
+    "date"
+  ]
+}
