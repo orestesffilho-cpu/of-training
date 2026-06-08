@@ -1,6 +1,6 @@
 import { Outlet, Link, useLocation } from "react-router-dom";
 import { LayoutDashboard, ClipboardList, TrendingUp, Activity } from "lucide-react";
-import logo from "../assets/logo-of.png";
+import logo from "/logo-of.png";
 
 const navItems = [
   { path: "/", icon: LayoutDashboard, label: "DASHBOARD" },
